@@ -8,7 +8,7 @@ Using [city_data.csv](https://github.com/borkard/PyBer_Analysis/tree/main/Resour
 *Ride-sharing data by city type:*
 ![PyBer_summary_dataframe.PNG](https://github.com/borkard/PyBer_Analysis/blob/main/analysis/PyBer_summary_dataframe.PNG)
 
-From the summary of ride-sharing data, it can be concluded that the number of "Total Rides" and "Total Drivers" is highest in Urban cities and decreases significantly in Suburban cities and still more in Rural cities. While Urban cities brought in the most revenue ("Total Fares"), the "Average Fare per Ride" and "Average Fare per Driver" are both significantly higher in Rural cities and decrease as the cities are classified as Suburban and Urban. While the "Total Fares" for the Urban cities are 10.86% higher than those of Rural cities, the "Average Fare per Driver" is nearly 30% higher for Rural cities than for Urban cities.
+From the summary of ride-sharing data, it can be concluded that the number of "Total Rides" and "Total Drivers" is highest in Urban cities and decreases significantly in Suburban cities and still more in Rural cities. While Urban cities brought in the most revenue ("Total Fares"), the "Average Fare per Ride" and "Average Fare per Driver" are both significantly higher in Rural cities and decrease as the city size increases and are classified as Suburban and Urban. While the "Total Fares" for the Urban cities are 10.86% higher than those of Rural cities, the "Average Fare per Driver" is nearly 30% higher for Rural cities than for Urban cities.
 
 ![PyBer_fare_summary.png](https://github.com/borkard/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.png)
 
