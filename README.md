@@ -1,7 +1,7 @@
 # PyBer_Analysis
 
 ## Overview
-Using [city_data.csv](https://github.com/borkard/PyBer_Analysis/tree/main/Resources/city_data.csv) and [ride_data.csv](https://github.com/borkard/PyBer_Analysis/tree/main/Resources/ride_data.csv), an analysis was conducted with Pandas and Python to determine the Total Rides, Total Drivers, Total Fares, Average Fare per Ride, and Average Fare per Driver per type of city. After creating a summary view of the ride-sharing data by city type, Matplotlib was used to create a multiple-line plot to show the total weekly fares for each type of city.
+Using [city_data.csv](https://github.com/borkard/PyBer_Analysis/tree/main/Resources/city_data.csv) and [ride_data.csv](https://github.com/borkard/PyBer_Analysis/tree/main/Resources/ride_data.csv), an analysis was conducted with Pandas and Python to determine the Total Rides, Total Drivers, Total Fares, Average Fare per Ride, and Average Fare per Driver for each type of city (Urban, Suburban, Rural). After creating a summary view of the ride-sharing data by city type, Matplotlib was used to create a multiple-line plot to show the total weekly fares for each type of city.
 
 ## Results
 
