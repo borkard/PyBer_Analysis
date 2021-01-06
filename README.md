@@ -1,10 +1,12 @@
 # PyBer_Analysis
 
-## Overview of Project
-REMOVE OR REPLACE An analysis was performed using Kickstarter data to find trends amongst successful campaigns and to determine how to run a successful Kickstarter campaign to raise money for a play. 
+## Overview
+An analysis of ride-sharing data and city-data was conducted to 
 
-### Purpose
-Explain the purpose of the new analysis (well-defined)
+
+V. Isualize has given you and Omar a brand-new assignment. Using your Python skills and knowledge of Pandas, you’ll create a summary DataFrame of the ride-sharing data by city type. Then, using Pandas and Matplotlib, you’ll create a multiple-line graph that shows the total weekly fares for each city type. Finally, you’ll submit a written report that summarizes how the data differs by city type and how those differences can be used by decision-makers at PyBer.
+
+Using [city_data.csv]([city_data.csv](https://github.com/borkard/PyBer_Analysis/tree/main/Resources/city_data.csv)) and [ride_data.csv]([ride_data.csv](https://github.com/borkard/PyBer_Analysis/tree/main/Resources/ride_data.csv))
 
 ## Results
 Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
