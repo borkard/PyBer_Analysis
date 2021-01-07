@@ -1,19 +1,18 @@
 # PyBer_Analysis
 
 ## Overview
-An analysis of ride-sharing data and city-data was conducted to 
-
-
-V. Isualize has given you and Omar a brand-new assignment. Using your Python skills and knowledge of Pandas, you’ll create a summary DataFrame of the ride-sharing data by city type. Then, using Pandas and Matplotlib, you’ll create a multiple-line graph that shows the total weekly fares for each city type. Finally, you’ll submit a written report that summarizes how the data differs by city type and how those differences can be used by decision-makers at PyBer.
-
-Using ([city_data.csv](https://github.com/borkard/PyBer_Analysis/tree/main/Resources/city_data.csv) and([ride_data.csv](https://github.com/borkard/PyBer_Analysis/tree/main/Resources/ride_data.csv)
+Using [city_data.csv](https://github.com/borkard/PyBer_Analysis/tree/main/Resources/city_data.csv) and [ride_data.csv](https://github.com/borkard/PyBer_Analysis/tree/main/Resources/ride_data.csv), an analysis was conducted with Pandas and Python to determine the Total Rides, Total Drivers, Total Fares, Average Fare per Ride, and Average Fare per Driver for each type of city (Urban, Suburban, Rural). After creating a summary view of the ride-sharing data by city type, Matplotlib was used to create a multiple-line plot to show the total weekly fares for each type of city.
 
 ## Results
-Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
+From the summary of ride-sharing data, it can be concluded that the number of "Total Rides" and "Total Drivers" is highest in Urban cities and decreases significantly in Suburban cities and still more in Rural cities. The "Total Rides" for Urban cities is 93% higher than in Rural cities and 62% higher than in Suburban cities. The "Total Drivers" for Urban cities is 97% higher than in Rural cities and 80% higher than in Suburban cities. The "Total Drivers" in Rural cities far exceeds the number of "Total Rides" whereas in Urban cities, there are many more drivers than rides. The Suburban cities also have more rides than drivers. The "Total Fares" for Urban cities is 89% higher than in Rural cities and 49% higher than in Suburban cities. While Urban cities brought in the most revenue ("Total Fares"), the "Average Fare per Ride" and "Average Fare per Driver" are inversly proportional to city size and are both significantly higher in Rural cities and decrease as the city size increases and is classified as Suburban and Urban. While the "Total Fares" for the Urban cities are 10.86% higher than those of Rural cities, the "Average Fare per Driver" is nearly 70% higher for Rural cities than for Urban cities and the "Average Fare per Ride" is also nearly 29% higher for Rural cities than for Suburban cities. The "Average Fare per Ride" in Rural cities is 0.8% of the "Total Fares", 0.2% of "Total Fares" for Suburban cities, and 0.06% of "Total Fares" for Urban cities.
 
-There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type.
+*Ride-sharing data by city type:*
+![PyBer_summary_dataframe.PNG](https://github.com/borkard/PyBer_Analysis/blob/main/analysis/PyBer_summary_dataframe.PNG)
+
+According the the monthly view of the Total Fare by City Type (in graph below), all city types follow a similar cadence in Total Fares from January-April 2019, with the exceptions of Rural fares nearly reaching a plateau  between March and April while Suburban and Urban fares slightly peak, and Suburban Fares steeply spiking in April as Urban and Rural fares decrease. The Suburban Fares also decline slightly in late January and have a sharper peak and decline in fares in late March compared to Urban and Rural fares.
+
+*Line Graph: Total Fare by City Type*
+![PyBer_fare_summary.png](https://github.com/borkard/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.png)
 
 ## Summary
-Based on the results, provide three business recommendations to the CEO for addressing any disparities among the city types.
-
-There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types.
+The results show that there is a disparity in the ratio of rides to drivers in Rural and Suburban cities compared to in Urban cities. I recommend that the PyBer CEO look into the disparity of these ratios and why there are so few rides compared to drivers in Urban cities and why there are so few drivers for the number of rides in Rural and Suburban cities. This ratio is certainly affecting the Average Fare per Driver as Rural drivers have the opportunity of many more rides with higher fares. I would also recommend that the CEO look into why the Average Fare per Ride is less in Urban cities than in Rural and Suburban cities. There is also a disparity in how much each ride contributes to the "Total Fares" with the highest percentage (0.8%) in Rural cities and only 0.06% of "Total Fares" in Urban cities on average coming from each ride. I would recommend that the PyBer CEO look into how to align the overall ratio of "Average Fare per Ride" to "Total Fares" for each type of city.
